@@ -247,7 +247,7 @@ VALUE mb_discid_default_device(VALUE class)
 /**
  * Initialize the DiscID class and make it available in Ruby.
  */
-void Init_DiscID() {
+void Init_MB_DiscID() {
 	mMusicBrainz = rb_define_module("MusicBrainz");
   	cDiscID = rb_define_class_under(mMusicBrainz, "DiscID", rb_cObject);
 	rb_define_singleton_method(cDiscID, "new", mb_discid_new, -1);
