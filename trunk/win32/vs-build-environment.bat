@@ -1,0 +1,2 @@
+"%VS80COMNTOOLS%vsvars32.bat"
+set BINARY_GEM=win32
